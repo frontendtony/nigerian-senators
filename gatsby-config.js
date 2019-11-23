@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Nigerian Senators Directory`,
+    title: `Nigerian Senators`,
     description: `Find your representative in the Nigerian Senate with ease, including their contact details.`,
     author: `Anthony Oyathelemhi`
   },
