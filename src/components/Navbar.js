@@ -1,6 +1,9 @@
+import { useScrollTrigger } from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
+import Container from '@material-ui/core/Container';
 import IconButton from '@material-ui/core/IconButton';
 import InputBase from '@material-ui/core/InputBase';
+import Slide from '@material-ui/core/Slide';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -8,6 +11,15 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import SearchIcon from '@material-ui/icons/Search';
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
+
+const HideOnScroll = ({ children }) => {
+  const trigger = useScrollTrigger();
+  return (
+    <Slide appear={false} direction='down' in={!trigger}>
+      {children}
+    </Slide>
+  );
+};
 
 const useStyles = makeStyles(theme => ({
   grow: {
@@ -78,36 +90,43 @@ export default function Navbar() {
 
   return (
     <div className={classes.grow}>
-      <AppBar position='static'>
-        <Toolbar>
-          <Typography className={classes.title} variant='h6' noWrap>
-            {site.siteMetadata.title}
-          </Typography>
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
-            </div>
-            <InputBase
-              placeholder='Enter name, state or district'
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput
-              }}
-              inputProps={{ 'aria-label': 'search' }}
-            />
-          </div>
-          <div className={classes.grow} />
-          <a
-            href='http://github.com/tonerolima/nigerian-senators'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <IconButton aria-label='link to gitub repository' color='inherit'>
-              <GitHubIcon />
-            </IconButton>
-          </a>
-        </Toolbar>
-      </AppBar>
+      <HideOnScroll>
+        <AppBar>
+          <Container maxWidth='xl'>
+            <Toolbar>
+              <Typography className={classes.title} variant='h6' noWrap>
+                {site.siteMetadata.title}
+              </Typography>
+              <div className={classes.search}>
+                <div className={classes.searchIcon}>
+                  <SearchIcon />
+                </div>
+                <InputBase
+                  placeholder='Enter name, state or district'
+                  classes={{
+                    root: classes.inputRoot,
+                    input: classes.inputInput
+                  }}
+                  inputProps={{ 'aria-label': 'search' }}
+                />
+              </div>
+              <div className={classes.grow} />
+              <a
+                href='http://github.com/tonerolima/nigerian-senators'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <IconButton
+                  aria-label='link to gitub repository'
+                  color='inherit'
+                >
+                  <GitHubIcon />
+                </IconButton>
+              </a>
+            </Toolbar>
+          </Container>
+        </AppBar>
+      </HideOnScroll>
     </div>
   );
 }
