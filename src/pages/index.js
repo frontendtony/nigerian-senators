@@ -2,6 +2,7 @@ import { Container } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import React from 'react';
 import 'typeface-roboto';
+import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import SenatorsComponent from '../components/Senators';
 import SEO from '../components/seo';
@@ -38,7 +39,7 @@ const IndexPage = () => {
   };
 
   return (
-    <div>
+    <Layout>
       <SEO title='Home' />
       <header>
         <Navbar filter={e => filter(e.target.value.toLowerCase())} />
@@ -48,7 +49,7 @@ const IndexPage = () => {
           <SenatorsComponent senators={senators} />
         </Container>
       </main>
-    </div>
+    </Layout>
   );
 };
 
