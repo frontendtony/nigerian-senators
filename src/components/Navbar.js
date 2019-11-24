@@ -25,6 +25,9 @@ const useStyles = makeStyles(theme => ({
   grow: {
     flexGrow: 1
   },
+  toolbar: {
+    padding: 0
+  },
   menuButton: {
     marginRight: theme.spacing(2)
   },
@@ -71,7 +74,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function Navbar() {
+export default function Navbar({ filter }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -92,8 +95,8 @@ export default function Navbar() {
     <div className={classes.grow}>
       <HideOnScroll>
         <AppBar>
-          <Container maxWidth='xl'>
-            <Toolbar>
+          <Container>
+            <Toolbar className={classes.toolbar}>
               <Typography className={classes.title} variant='h6' noWrap>
                 {site.siteMetadata.title}
               </Typography>
@@ -102,12 +105,13 @@ export default function Navbar() {
                   <SearchIcon />
                 </div>
                 <InputBase
-                  placeholder='Enter name, state or district'
+                  placeholder='Search by name or state'
                   classes={{
                     root: classes.inputRoot,
                     input: classes.inputInput
                   }}
                   inputProps={{ 'aria-label': 'search' }}
+                  onChange={filter}
                 />
               </div>
               <div className={classes.grow} />

@@ -1,27 +1,55 @@
 import { Container } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import React from 'react';
-import styled from 'styled-components';
 import 'typeface-roboto';
 import Navbar from '../components/Navbar';
-import SenatorsList from '../components/Senators';
+import SenatorsComponent from '../components/Senators';
 import SEO from '../components/seo';
 import '../css/index.css';
-import senators from '../data/senators.js';
+import senatorsList from '../data/senators.js';
 
-const StyledPage = styled.div``;
+const useStyles = makeStyles({
+  main: {
+    padding: '100px 0 50px'
+  }
+});
 
-const IndexPage = () => (
-  <StyledPage>
-    <SEO title='Home' />
-    <header>
-      <Navbar />
-    </header>
-    <main>
-      <Container fixed>
-        <SenatorsList senators={senators} />
-      </Container>
-    </main>
-  </StyledPage>
-);
+const IndexPage = () => {
+  const [senators, setSenators] = React.useState(senatorsList);
+  const [timeoutId, setTimeoutId] = React.useState(senatorsList);
+
+  const classes = useStyles();
+
+  const filter = value => {
+    clearTimeout(timeoutId);
+
+    if (value === '') {
+      setSenators(senatorsList);
+    } else {
+      const id = setTimeout(() => {
+        const data = senatorsList.filter(({ name, state }) => {
+          const searchString = `${name}${state}`;
+          return searchString.toLowerCase().includes(value);
+        });
+        setSenators(data);
+      }, 500);
+      setTimeoutId(id);
+    }
+  };
+
+  return (
+    <div>
+      <SEO title='Home' />
+      <header>
+        <Navbar filter={e => filter(e.target.value.toLowerCase())} />
+      </header>
+      <main className={classes.main}>
+        <Container fixed>
+          <SenatorsComponent senators={senators} />
+        </Container>
+      </main>
+    </div>
+  );
+};
 
 export default IndexPage;

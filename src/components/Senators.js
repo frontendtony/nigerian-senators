@@ -8,12 +8,15 @@ import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 import React from 'react';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   list: {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     alignItems: 'stretch',
-    gap: '30px'
+    gap: '30px',
+    [theme.breakpoints.up('md')]: {
+      padding: '0 20px'
+    }
   },
   card: {
     minWidth: 275,
@@ -33,7 +36,7 @@ const useStyles = makeStyles({
     alignItems: 'center',
     marginBottom: 12
   }
-});
+}));
 
 const SenatorsList = ({ senators = [] }) => {
   const classes = useStyles();
