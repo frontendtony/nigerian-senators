@@ -28,8 +28,8 @@ const IndexPage = () => {
       setSenators(senatorsList);
     } else {
       const id = setTimeout(() => {
-        const data = senatorsList.filter(({ name, state }) => {
-          const searchString = `${name}${state}`;
+        const data = senatorsList.filter(({ name, state, district }) => {
+          const searchString = `${name}${state}${district}`;
           return searchString.toLowerCase().includes(value);
         });
         setSenators(data);

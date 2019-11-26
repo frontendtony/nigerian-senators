@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     flexDirection: 'column'
   },
-  state: {
+  district: {
     marginBottom: 14
   },
   actions: {
@@ -43,7 +43,7 @@ const SenatorsList = ({ senators = [] }) => {
 
   return (
     <ul className={classes.list}>
-      {senators.map(({ name, email, state, phone }) => (
+      {senators.map(({ name, email, phone, district }) => (
         <Card
           className={classes.card}
           raised
@@ -55,8 +55,8 @@ const SenatorsList = ({ senators = [] }) => {
             <Typography variant='h5' gutterBottom>
               {name}
             </Typography>
-            <Typography color='textSecondary' className={classes.state}>
-              {state}
+            <Typography color='textSecondary' className={classes.district}>
+              {district}
             </Typography>
             {phone && (
               <div className={classes.contactWrapper}>

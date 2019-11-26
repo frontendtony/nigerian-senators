@@ -1,538 +1,874 @@
 export default [
   {
-    name: 'Sen. E. Abaribe',
-    phone: '08033129452',
+    name: 'Eyinnaya Abaribe',
+    phone: '+2348033129452',
     email: 'enyiabaribe@yahoo.com',
-    state: 'Abia'
+    state: 'Abia',
+    district: 'Abia South',
+    party: 'PDP'
   },
   {
-    name: 'Sen. O. Kalu',
-    phone: '08034000001',
+    name: 'Orji Kalu Uzor',
+    phone: '+2348034000001',
     email: 'okalu@orjikalu.com',
-    state: 'Abia'
+    state: 'Abia',
+    district: 'Abia North',
+    party: 'APC'
   },
   {
-    name: 'Sen. T. Orji',
-    phone: '07082800000',
+    name: 'Orji Theodore Ahamafule',
+    phone: '+2347082800000',
     email: 'senatortaorji@gmail.com',
-    state: 'Abia'
+    state: 'Abia',
+    district: 'Abia Central',
+    party: 'PDP'
   },
   {
-    name: 'Sen. B. Yaroe',
-    phone: '08034050460',
+    name: 'Yaroe binos dauda',
+    phone: '+2348034050460',
     email: 'bdyaroe@gmail.com',
-    state: 'Adamawa'
+    state: 'Adamawa',
+    district: 'Adamawa South',
+    party: 'PDP'
   },
   {
-    name: 'Sen. I. Abbo',
-    phone: '08066285112',
+    name: 'Ishaku Elisha Cliff Abbo',
+    phone: '+2348066285112',
     email: 'faradugun@gmail.com',
-    state: 'Adamawa'
+    state: 'Adamawa',
+    district: 'Adamawa North',
+    party: 'PDP'
   },
   {
-    name: 'Sen. A. Ahmed',
+    name: 'Dahiru Aishatu Ahmed',
+    phone: '',
     email: 'aishatu.ahmed@nass.gov.ng',
-    state: 'Adamawa'
+    state: 'Adamawa',
+    district: 'Adamawa Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. B. Akpan',
-    phone: '08055555188',
+    name: 'Akpan Bassey Albert',
+    phone: '+2348055555188',
     email: 'akpanalbert@hotmail.com',
-    state: 'AkwaIbom'
+    state: 'AkwaIbom',
+    district: 'AkwaIbom North East',
+    party: 'PDP'
   },
   {
-    name: 'Sen. A. Eyakenyi',
-    phone: '08035054282',
+    name: 'Etim Akon Eyenkanyi',
+    phone: '+2348035054282',
     email: 'konssie@yahoo.com',
-    state: 'AkwaIbom'
+    state: 'AkwaIbom',
+    district: 'AkwaIbom South',
+    party: 'PDP'
   },
   {
-    name: 'Sen. C. Ekpeyong',
-    phone: '08027785234',
+    name: 'Christopher Stephen Ekpeyong',
+    phone: '+2348027785234',
     email: 'chrisekpesg@yahoo.com',
-    state: 'AkwaIbom'
+    state: 'AkwaIbom',
+    district: 'AkwaIbom North West',
+    party: 'PDP'
   },
   {
-    name: 'Sen. I. Ubah',
-    phone: '09096655596',
+    name: 'Ifeanyi Ubah',
+    phone: '+2349096655596',
     email: 'senatorifeanyiubah@gmail.com',
-    state: 'Anambra'
+    state: 'Anambra',
+    district: 'Anambra South',
+    party: 'YPP'
   },
   {
-    name: 'Sen. E. Uche',
-    phone: '08037620002',
+    name: 'Uche Lilian Ekwunife',
+    phone: '+2348037620002',
     email: 'u.ekwunife@yahoo.com',
-    state: 'Anambra'
+    state: 'Anambra',
+    district: 'Anambra Central',
+    party: 'PDP'
   },
   {
-    name: 'Sen. A. Oduah',
-    phone: '08055084340',
+    name: 'Adeaze Stella Uduah',
+    phone: '+2348055084340',
     email: 'senatorstella@gmail.com',
-    state: 'Anambra'
+    state: 'Anambra',
+    district: 'Anambra North',
+    party: 'PDP'
   },
   {
-    name: 'Sen. H. Jika',
-    phone: '08038666690',
+    name: 'Jika Dauda Halliru',
+    phone: '+2348038666690',
     email: 'jikahalliru@gmail.com',
-    state: 'Anambra'
+    state: 'Bauchi',
+    district: 'Bauchi Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. A. Bulkachuwa',
+    name: 'Balkachuwa Amadu muhammad',
+    phone: '',
     email: 'adamu.bulkachuwa@nass.gov.ng',
-    state: 'Anambra'
+    state: 'Bauchi',
+    district: 'Bauchi North',
+    party: 'APC'
   },
   {
-    name: 'Sen. L. Gamau',
+    name: 'Lawal Gamau',
+    phone: '',
     email: 'lawal.gumau@nass.gov.ng',
-    state: 'Anambra'
+    state: 'Bauchi',
+    district: 'Bauchi South',
+    party: 'APC'
   },
   {
-    name: 'Sen. O. Ewhrudjakpo',
-    phone: '09031352791',
+    name: 'Ewhrudjakpo Lawrence',
+    phone: '+2349031352791',
     email: 'ogagadick@gmail.com',
-    state: 'Bayelsa'
+    state: 'Bayelsa',
+    district: 'Bayelsa West',
+    party: 'PDP'
   },
   {
-    name: 'Sen. D. Diri',
-    phone: '08036668698',
+    name: 'Diri Douye',
+    phone: '+2348036668698',
     email: 'douyediri@gmail.com',
-    state: 'Bayelsa'
+    state: 'Bayelsa',
+    district: 'Bayesla Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. D. Wangagra',
+    name: 'Degi-erimienyo Wangara',
+    phone: '',
     email: 'degi.wangagha@nass.gov.ng',
-    state: 'Bayelsa'
+    state: 'Bayelsa',
+    district: 'Bayelsa East',
+    party: 'APC'
   },
   {
-    name: 'Sen. E. Orker-Jev',
+    name: 'Emmanuel Yisa Oker-Jev',
+    phone: '',
     email: 'emmanuel.orkerjev@nass.gov.ng',
-    state: 'Benue'
+    state: 'Benue',
+    district: 'Benue North West',
+    party: 'PDP'
   },
   {
-    name: 'Sen A. Morro',
-    phone: '08068870606',
+    name: 'Patrick Abba Morro',
+    phone: '+2348068870606',
     email: 'abahmoro@yahoo.com',
-    state: 'Benue'
+    state: 'Benue',
+    district: 'Benue South ',
+    party: 'PDP'
   },
   {
-    name: 'Sen. A. Kyari',
+    name: 'Abubakar Kyari',
+    phone: '',
     email: 'abubakar.kyari@nass.gov.ng',
-    state: 'Borno'
+    state: 'Borno',
+    district: 'Borno North ',
+    party: 'APC'
   },
   {
-    name: 'Sen. K. Shettima',
-    phone: '08034459047',
+    name: 'Kashimi Shettima',
+    phone: '+2348034459047',
     email: 'kashimshettima@gmail.com',
-    state: 'Borno'
+    state: 'Borno',
+    district: 'Borno Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. M. Ndume',
-    phone: '08109480004',
+    name: 'Ali Ndume',
+    phone: '+2348109480004',
     email: 'mohammed.ndume@nass.gov.ng',
-    state: 'Borno'
+    state: 'Borno',
+    district: 'Borno South',
+    party: 'APC'
   },
   {
-    name: 'Sen. R. Oko',
+    name: 'Oko Rose Okoji',
+    phone: '',
     email: 'rose.oko@nass.gov.ng',
-    state: 'CrossRiver'
+    state: 'CrossRiver',
+    district: 'Cross River North',
+    party: 'PDP'
   },
   {
-    name: 'Sen. G. Bassey',
-    phone: '08034444555',
+    name: 'Geshom Henry Bassey',
+    phone: '+2348034444555',
     email: 'gershombassey@gmail.com',
-    state: 'CrossRiver'
+    state: 'CrossRiver',
+    district: 'Cross River South',
+    party: 'PDP'
   },
   {
-    name: 'Sen. S. Onor',
-    phone: '08030998460',
+    name: 'Onor Sandy Ojang',
+    phone: '+2348030998460',
     email: 'irunandu@yahoo.com',
-    state: 'CrossRiver'
+    state: 'CrossRiver',
+    district: 'Cross River Central',
+    party: 'PDP '
   },
   {
-    name: 'Sen. O. Omo-Agege',
-    phone: '07033399937',
+    name: 'Ovie Omo-Agege',
+    phone: '+2347033399937',
     email: 'senator.ovieomoagege@gmail.com',
-    state: 'Delta'
+    state: 'Delta',
+    district: 'Delta Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. J. Manager',
-    phone: '08143103829',
+    name: 'James Ebiowuo Manager',
+    phone: '+2348143103829',
     email: 'jamesmanager2013@gmail.com',
-    state: 'Delta'
+    state: 'Delta',
+    district: 'Delta South',
+    party: 'PDP'
   },
   {
-    name: 'Sen. P. Nwaoboshi',
-    phone: '08037200999',
+    name: 'Peter Nwaoboshi',
+    phone: '+2348037200999',
     email: 'pnwaoboshi@yahoo.com',
-    state: 'Delta'
+    state: 'Delta',
+    district: 'Delta North',
+    party: 'PDP'
   },
   {
-    name: 'Sen. C. Ordia',
-    phone: '08038403877',
+    name: 'Ordia Akhimienmona Clifford',
+    phone: '+2348038403877',
     email: 'engineercliffordordia@gmail.com',
-    state: 'Edo'
+    state: 'Edo',
+    district: 'Edo Central',
+    party: 'PDP'
   },
   {
-    name: 'Sen. F. Alimikhena',
-    phone: '08155555884',
+    name: 'Alimikhena Francis Asekhame',
+    phone: '+2348155555884',
     email: 'falimikhena@yahoo.com',
-    state: 'Edo'
+    state: 'Edo',
+    district: 'Edo North',
+    party: 'APC'
   },
   {
-    name: 'Sen. M. Urhoghide',
-    phone: '08033855557',
+    name: 'Urhoghide Mattew Aisagbonriodon',
+    phone: '+2348033855557',
     email: 'matthewurhoghide@yahoo.com',
-    state: 'Edo'
+    state: 'Edo',
+    district: 'Edo South',
+    party: 'PDP'
   },
   {
-    name: 'Sen. A. Adeyeye',
-    phone: '08023051100',
+    name: 'Adeye Clement Adedayo',
+    phone: '+2348023051100',
     email: 'dadeyeye34@gmail.com',
-    state: 'Ekiti'
+    state: 'Ekiti',
+    district: 'Ekiti South',
+    party: 'APC'
   },
   {
-    name: 'Sen. O. Adetumbi',
-    phone: '08064487689',
+    name: 'Adetumbi Olubunmi Ayodeji',
+    phone: '+2348064487689',
     email: 'senator.adetunmbi@gmail.com',
-    state: 'Ekiti'
+    state: 'Ekiti',
+    district: 'Ekiti North',
+    party: 'APC'
   },
   {
-    name: 'Sen. M. Bamidele',
-    phone: '080911112',
+    name: 'Bamidele Micheal Opeyemi',
+    phone: '+23480911112',
     email: 'amicusng@gmail.com',
-    state: 'Ekiti'
+    state: 'Ekiti',
+    district: 'Ekiti Central',
+    party: 'APC'
   },
   {
-    name: ' Sen. C. Nnamani',
-    phone: '08022255522',
+    name: 'Nnamani Chimaroke Ogbbonnia',
+    phone: '+2348022255522',
     email: 'ebeanoglobal875@gmail.com',
-    state: 'Enugu'
+    state: 'Enugu',
+    district: 'Enugu East',
+    party: 'PDP'
   },
   {
-    name: 'Sen. Ikweremadu',
-    phone: '08075757000',
+    name: 'Ike Ikweremadu',
+    phone: '+2348075757000',
     email: 'ikeekweremadu@yahoo.com',
-    state: 'Enugu'
+    state: 'Enugu',
+    district: 'Enugu West',
+    party: 'PDP'
   },
   {
-    name: 'Sen. C. Utazi',
+    name: 'Utazi Godfrey Chukuwka',
+    phone: '',
     email: 'chukwuka.utazi@nass.gov.ng',
-    state: 'Enugu'
+    state: 'Enugu',
+    district: 'Enugu West',
+    party: 'PDP'
   },
   {
-    name: 'Sen. A. Kilawangs',
+    name: 'Amos Bulus Kilawangs',
+    phone: '',
     email: 'amos.kilawangs@nass.gov.ng',
-    state: 'Gombe'
+    state: 'Gombe',
+    district: 'Gombe South',
+    party: 'APC'
   },
   {
-    name: 'Sen. D. Mohammed',
-    phone: '07068686699',
+    name: 'Danjuma Mohammed Goje',
+    phone: '+2347068686699',
     email: 'mdgoje1@gmail.com',
-    state: 'Gombe'
+    state: 'Gombe',
+    district: 'Gombe Central ',
+    party: 'APC'
   },
   {
-    name: 'Sen. S. Alkali',
-    phone: '08026032222',
+    name: 'Alkali Saidu Ahmed',
+    phone: '+2348026032222',
     email: 'saidualkali905@gmail.com',
-    state: 'Gombe'
+    state: 'Gombe',
+    district: 'Gombe North',
+    party: 'APC'
   },
   {
-    name: 'Sen. S. Egwu',
-    phone: '08039665848',
+    name: 'Egwu Samuel Omniyi',
+    phone: '+2348039665848',
     email: 'drsamominyiegwu@gmail.com',
-    state: 'Ebonyi'
+    state: 'Ebonyi',
+    district: 'Ebonyi North ',
+    party: 'PDP'
   },
   {
-    name: 'Sen. J. Ogba',
-    phone: '08037791346',
+    name: 'Ogba Joseph Obinna',
+    phone: '+2348037791346',
     email: 'onwaigboasa@yahoo.com',
-    state: 'Ebonyi'
+    state: 'Ebonyi',
+    district: 'Ebonyi Central',
+    party: 'PDP'
   },
   {
-    name: 'Sen. M. Nnachi',
-    phone: '08034528595',
+    name: 'Micheal Ama Nnachi',
+    phone: '+2348034528595',
     email: 'michaelamannachi@gmail.com',
-    state: 'Ebonyi'
+    state: 'Ebonyi',
+    district: 'Ebonyi South',
+    party: 'PDP'
   },
   {
-    name: 'Sen. E. Onyewuchi',
-    phone: '08032012132',
+    name: 'Oyenwuchi Ezanwa Francis',
+    phone: '+2348032012132',
     email: 'ezeonyewuchi@gmail.com',
-    state: 'Imo'
+    state: 'Imo',
+    district: 'Imo East',
+    party: 'PDP'
   },
   {
-    name: 'Sen. R. Okorocha',
+    name: 'Rochas Okorocha',
+    phone: '',
     email: 'rochas.okorocha@nass.gov.ng',
-    state: 'Imo'
+    state: 'Imo',
+    district: 'Imo West',
+    party: 'APC'
   },
   {
-    name: 'Sen. B. Uwajumogu',
+    name: 'Benjamin Uwajumogu',
+    phone: '',
     email: 'benjamin.uwajumogu@nass.gov.ng',
-    state: 'Imo'
+    state: 'Imo',
+    district: 'Imo North',
+    party: 'APC'
   },
   {
-    name: 'Sen. D. Sankara',
-    phone: '08037032577',
+    name: 'Sankara Danladi Abdullahi',
+    phone: '+2348037032577',
     email: 'dsankara@yahoo.co.uk',
-    state: 'Jigawa'
+    state: 'Jigawa',
+    district: 'Jigawa North West',
+    party: 'APC'
   },
   {
-    name: 'Sen. S. Mohammed',
-    phone: '08022902648',
+    name: 'Mohammed Sabo',
+    phone: '+2348022902648',
     email: 'nakudu@yahoo.com',
-    state: 'Jigawa'
+    state: 'Jigawa',
+    district: 'Jiagawa South West',
+    party: 'APC'
   },
   {
-    name: 'Sen. I. Hadejia',
+    name: 'Hassan Ibrahim Hadeija',
+    phone: '',
     email: 'ibrahim.hadejia@nass.gov.ng',
-    state: 'Jigawa'
+    state: 'Jigawa',
+    district: 'Jigawa North East',
+    party: 'APC'
   },
   {
-    name: 'Sen. S. Kwari',
-    phone: '08033019005',
+    name: 'Kwari Suleiman Abdu',
+    phone: '+2348033019005',
     email: 'suleimankwari@yahoo.com',
-    state: 'Kaduna'
+    state: 'Kaduna',
+    district: 'Kaduna North',
+    party: 'APC'
   },
   {
-    name: "Sen. D. La'ah",
-    phone: '08118887772',
+    name: 'Laah Danjuma Tella',
+    phone: '+2348118887772',
     email: 'laah.danjuma@yahoo.com',
-    state: 'Kaduna'
+    state: 'Kaduna',
+    district: 'Kaduna South',
+    party: 'PDP'
   },
   {
-    name: 'Sen. K. Gaya',
+    name: 'Gaya Ibrahim Kabiru',
+    phone: '',
     email: 'kabiru.gaya@nass.gov.ng',
-    state: 'Kano'
+    state: 'Kano',
+    district: 'Kano South',
+    party: 'APC'
   },
   {
-    name: 'Sen. I. Jibrin',
+    name: 'Barau Ibrahim Jibrin',
+    phone: '',
     email: 'ibrahim.jibrin@nass.gov.ng',
-    state: 'Kano'
+    state: 'Kano',
+    district: 'Kano North',
+    party: 'APC'
   },
   {
-    name: 'Sen. I. Shekarau',
-    phone: '08099199111',
+    name: 'Ibrahim Shekarau',
+    phone: '+2348099199111',
     email: 'ishekarau55@yahoo.com',
-    state: 'Kano'
+    state: 'Kano',
+    district: 'Kano Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. A. Babba-Kaita',
+    name: 'Babba Ahmad Kaita',
+    phone: '',
     email: 'ahmad.babba@nass.gov.ng',
-    state: 'Katsina'
+    state: 'Katsina',
+    district: 'Katsina North',
+    party: 'APC'
   },
   {
-    name: 'Sen. B. Mandiya',
+    name: 'Mandiya Bello',
+    phone: '',
     email: 'bellom2001@yahoo.com',
-    state: 'Katsina'
+    state: 'Katsina',
+    district: 'Katsina South',
+    party: 'APC'
   },
   {
-    name: 'Sen. K. Barkiya',
-    phone: '08138360742',
+    name: 'Abdullahi kabir Barkiya',
+    phone: '+2348138360742',
     email: 'barkamazadu00@yahoo.com',
-    state: 'Katsina'
+    state: 'Katsina',
+    district: 'Katsina Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. M. Aliero',
-    phone: '07066847000',
+    name: 'Adamu Mainasara Aliero',
+    phone: '+2347066847000',
     email: 'senatoraliero@yahoo.com',
-    state: 'Kebbi'
+    state: 'Kebbi',
+    district: 'Kebbi Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. Y. Abdullahi',
+    name: 'Abdullahi Abubakar Yahaya',
+    phone: '',
     email: 'yahaya.abdullahi@nass.gov.ng',
-    state: 'Kebbi'
+    state: 'Kebbi',
+    district: 'Kebbi North',
+    party: 'APC'
   },
   {
-    name: "Sen. B. Na'Allah",
+    name: "Na'Alla Bala Ibn",
+    phone: '',
     email: 'bala.naallah@nass.gov.ng',
-    state: 'Kebbi'
+    state: 'Kebbi',
+    district: 'Kebbi South',
+    party: 'APC'
   },
   {
-    name: 'Sen. J. Isah',
-    phone: '08185651909',
+    name: 'Jibrin Isah',
+    phone: '+2348185651909',
     email: 'isahj@ymail.com',
-    state: 'Kogi'
+    state: 'Kogi',
+    district: 'Kogi East',
+    party: 'APC'
   },
   {
-    name: 'Sen. O. Yakubu',
-    phone: '07032642674',
+    name: 'Yakubu Oseni',
+    phone: '+2347032642674',
     email: 'yakubu.oseni75@yahoo.com',
-    state: 'Kogi'
+    state: 'Kogi',
+    district: 'Kogi South',
+    party: 'APC'
   },
   {
-    name: 'Sen. A. Yisa',
-    phone: '07055221111',
+    name: 'Ashiru Oyelola Yisa',
+    phone: '+2347055221111',
     email: 'ylashiru@gmail.com',
-    state: 'Kwara'
+    state: 'Kwara',
+    district: 'Kwara South',
+    party: 'APC'
   },
   {
-    name: 'Sen. S. Umar',
+    name: 'Umar Suleiman Sodiq',
+    phone: '',
     email: 'sadiq.umar@nass.gov.ng',
-    state: 'Kwara'
+    state: 'Kwara',
+    district: 'Kwara North',
+    party: 'APC'
   },
   {
-    name: 'Sen. I. Olorigbigbe',
-    phone: '08033581695',
+    name: 'Oloriegbe Yahaya Ibrahim',
+    phone: '+2348033581695',
     email: 'oloridoc@yahoo.com',
-    state: 'Kwara'
+    state: 'Kwara',
+    district: 'Kwara central',
+    party: 'APC'
   },
   {
-    name: 'Sen. Oluremi Tinubu',
-    phone: '08095300251',
+    name: 'Oluremi Tinubu',
+    phone: '+2348095300251',
     email: 'info@oluremitinubu.com',
-    state: 'Lagos'
+    state: 'Lagos',
+    district: 'Lagos Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. S. Osinowo',
-    phone: '08033049369',
+    name: 'Osinowo Sikuru Adebayo',
+    phone: '+2348033049369',
     email: 'bayoosinowo@gmail.com',
-    state: 'Lagos'
+    state: 'Lagos',
+    district: 'Lagos East ',
+    party: 'APC '
   },
   {
-    name: 'Sen. S. Adeola',
-    phone: '08074000040',
+    name: 'Adeola Solomon Olamilekan',
+    phone: '+2348074000040',
     email: 'adeolaolamilekan2005@yahoo.com',
-    state: 'Lagos'
+    state: 'Lagos',
+    district: 'Lagos West ',
+    party: 'APC'
   },
   {
-    name: 'Sen. A. Adamu',
+    name: 'Abdullahi Adamu',
+    phone: '',
     email: 'abdullahi.adamu@nass.gov.ng',
-    state: 'Nasarawa'
+    state: 'Nasarawa',
+    district: 'Nasawara West',
+    party: 'APC '
   },
   {
-    name: 'Sen. G. Awkashiki',
-    phone: '08099321703',
+    name: 'Awkashiki Godiya',
+    phone: '+2348099321703',
     email: 'godiyaakwashiki123@gmail.com',
-    state: 'Nasarawa'
+    state: 'Nasarawa',
+    district: 'Nasawara North',
+    party: 'APC'
   },
   {
-    name: 'Sen. U. Almakura',
-    phone: '08077253989',
+    name: 'Tanko Al-Makura',
+    phone: '+2348077253989',
     email: 'tankoalmakura@yahoo.co.uk',
-    state: 'Nasarawa'
+    state: 'Nasarawa',
+    district: 'Nasawara South',
+    party: 'APC'
   },
   {
-    name: 'Sen. Aliyu Abdullahi',
-    phone: '08052046555',
+    name: 'Aliyu Abdullahi Sabi',
+    phone: '+2348052046555',
     email: 'draliyuabdullahii@gmail.com',
-    state: 'Niger'
+    state: 'Niger',
+    district: 'Niger North',
+    party: 'APC'
   },
   {
-    name: 'Sen. M. Bima',
-    phone: '08173479797',
+    name: 'Bami Muhammad Enagi ',
+    phone: '+2348173479797',
     email: 'sangibima@gmail.com',
-    state: 'Niger'
+    state: 'Niger',
+    district: 'Niger South',
+    party: 'APC'
   },
   {
-    name: 'Sen. M. Musa',
-    phone: '08033114615',
+    name: 'Muhammad Sani Musa',
+    phone: '+2348033114615',
     email: 'Sani_313@hotmail.com',
-    state: 'Niger'
+    state: 'Niger',
+    district: 'Niger East',
+    party: 'APC'
   },
   {
-    name: 'Sen. R. Mustapha',
-    phone: '08033047403',
+    name: 'Mustapha Ramoni Olalekn',
+    phone: '+2348033047403',
     email: 'adeoshy@gmail.com',
-    state: 'Ogun'
+    state: 'Ogun',
+    district: 'Ogun East',
+    party: 'APC'
   },
   {
-    name: 'Sen. I. Amosun',
-    phone: '08033213993',
+    name: 'Ibikunle Amosun',
+    phone: '+2348033213993',
     email: 'amks2@yahoo.com',
-    state: 'Ogun'
+    state: 'Ogun',
+    district: 'Ogun Central',
+    party: 'APC'
   },
   {
-    name: 'Sen. T. Odebiyi',
-    phone: '08036058080',
+    name: 'Odebiyi Tolulope Akinremi',
+    phone: '+2348036058080',
     email: 'toluodebiyi@gmail.com',
-    state: 'Ogun'
+    state: 'Ogun',
+    district: 'Ogun West',
+    party: 'APC'
   },
   {
-    name: 'Sen. A. Akinyelure',
-    phone: '08091707000',
+    name: 'Akinyelure Patrick Ayo',
+    phone: '+2348091707000',
     email: 'akinyelure1@yahoo.com',
-    state: 'Ondo'
+    state: 'Ondo',
+    district: 'Ondo Central',
+    party: 'PDP'
   },
   {
-    name: 'Sen. N. Tofowomo',
-    phone: '08054546666',
+    name: 'Nicholas Tofowomo',
+    phone: '+2348054546666',
     email: 'tofowomo_1960@yahoo.com',
-    state: 'Ondo'
+    state: 'Ondo',
+    district: 'Ondo South ',
+    party: 'PDP'
   },
   {
-    name: 'Sen. R. Boroffice',
-    phone: '08176406557',
+    name: 'Boroface Robert Ajayi ',
+    phone: '+2348176406557',
     email: 'rboroffice@yahoo.com',
-    state: 'Ondo'
+    state: 'Ondo',
+    district: 'Ondo North ',
+    party: 'APC'
   },
   {
-    name: 'Sen. S. Basiru',
-    phone: '08034753343',
+    name: 'Sarajudeen Ajibola Basiru',
+    phone: '+2348034753343',
     email: 'ajibolabasiru@hotmail.com',
-    state: 'Osun'
+    state: 'Osun',
+    district: 'Osun Central',
+    party: 'APC '
   },
   {
-    name: 'Sen. F. Fadahunsi',
-    phone: '08052242211',
+    name: 'Fadahunsin Francis Adedigba',
+    phone: '+2348052242211',
     email: 'adefadahunsi19@gmail.com',
-    state: 'Osun'
+    state: 'Osun',
+    district: 'Osun East',
+    party: 'PDP'
   },
   {
-    name: 'Sen. A. Oriolowo',
-    phone: '08033565979',
+    name: 'Oriolowo Adelere Adeyemi',
+    phone: '+2348033565979',
     email: 'yemlee12@gmail.com',
-    state: 'Osun'
+    state: 'Osun',
+    district: 'Osun West ',
+    party: 'APC'
   },
   {
-    name: 'Sen. T. Folarin',
-    phone: '08033160587',
+    name: 'Folarin Teslim Kolawole',
+    phone: '+2348033160587',
     email: 'teslimkfolarin@yahoo.com',
-    state: 'Oyo'
+    state: 'Oyo',
+    district: 'Oyo Central ',
+    party: 'APC'
   },
   {
-    name: 'Sen. B. Omotayo',
-    phone: '08037053375',
+    name: 'Abdulfatai Buhari Omotayo',
+    phone: '+2348037053375',
     email: 'rabab1004@yahoo.com',
-    state: 'Oyo'
+    state: 'Oyo',
+    district: 'Oyo North',
+    party: 'APC'
   },
   {
-    name: 'Sen. A. Balogun',
-    phone: '08132956057',
+    name: 'Kola Ademola Balogun',
+    phone: '+2348132956057',
     email: 'kbalogun7707@gmail.com',
-    state: 'Oyo'
+    state: 'Oyo',
+    district: 'Oyo South',
+    party: 'PDP'
   },
   {
-    name: 'Senator I. Longjan',
-    phone: '07044442045',
+    name: 'Ignatius Datong Longjan ',
+    phone: '+2347044442045',
     email: 'talk2longjan@gmail.com',
-    state: 'Plateau'
+    state: 'Plateau',
+    district: 'Platue South',
+    party: 'APC'
   },
   {
-    name: 'Sen. H. Dimka',
-    phone: '08033359443',
+    name: 'Dimka Hezekiah Ayuba',
+    phone: '+2348033359443',
     email: 'dewansamson4@gmail.com',
-    state: 'Plateau'
+    state: 'Rivers',
+    district: 'Patue Central ',
+    party: 'APC '
   },
   {
-    name: 'Sen. I. Gyang',
-    phone: '08097777712',
+    name: 'Gyang Istifanus Dung',
+    phone: '+2348097777712',
     email: 'dridgyang@gmail.com',
-    state: 'Plateau'
+    state: 'Plateau',
+    district: 'Platue North',
+    party: 'PDP'
   },
   {
-    name: 'Sen. B. Apiafi',
+    name: 'Apiafi Jocelyn Betty',
+    phone: '',
     email: 'betty.apiafi@nass.gov.ng',
-    state: 'Rivers'
+    state: 'Rivers',
+    district: 'Rivers West',
+    party: 'PDP'
   },
   {
-    name: 'Sen. G. Sekibo',
+    name: 'Thompson Sekibo',
+    phone: '+2348037419000',
     email: 'george.sekibo@nass.gov.ng',
-    state: 'Rivers'
+    state: 'Rivers',
+    district: 'Rivers East',
+    party: 'PDP'
   },
   {
-    name: 'Sen. B. Mpigi',
-    phone: '08037419000',
+    name: 'Mpigi Barinada',
+    phone: '+2348037419000',
     email: 'mpigib@yahoo.com',
-    state: 'Rivers'
+    state: 'Rivers',
+    district: 'Rivers South East',
+    party: 'APC'
+  },
+  {
+    name: 'Gobir Ibrahim Abdullahi',
+    phone: '',
+    email: 'ibrahimgabir1@yahoo.com',
+    state: 'Sokoto',
+    district: 'Sokoto East',
+    party: 'APC'
+  },
+  {
+    name: 'Aliyu Wamakko',
+    phone: '+2347033181818',
+    email: 'amwamakko@yahoo.com',
+    state: 'Sokoto',
+    district: 'Sokoto North',
+    party: 'APC'
+  },
+  {
+    name: 'Shehu Abubakar Tambuwal',
+    phone: '+2347069619523',
+    email: 'abubakarshehu5225@gmail.com',
+    state: 'Sokoto',
+    district: 'Sokoto South',
+    party: 'APC'
+  },
+  {
+    name: 'Bwacha Emmanuel',
+    phone: '+2347063795588',
+    email: ' info@senatorbwacha.com',
+    state: 'Taraba',
+    district: 'Taraba South',
+    party: 'PDP'
+  },
+  {
+    name: 'Yusuf Abubakar Yusuf',
+    phone: '+2348033109493',
+    email: 'yusufawakili@gmail.com',
+    state: 'Taraba',
+    district: 'Taraba Central',
+    party: 'APC '
+  },
+  {
+    name: 'Isa Shuaibu Lau',
+    phone: '',
+    email: ' shuaibu.lau@nass.gov.ng',
+    state: 'Taraba',
+    district: 'Taraba North',
+    party: 'PDP'
+  },
+  {
+    name: 'Ahmed Lawan ',
+    phone: '+2347055090323',
+    email: '',
+    state: 'Yobe',
+    district: 'Yobe North',
+    party: 'APC'
+  },
+  {
+    name: 'Bomai Ibrahim Mohammed',
+    phone: '',
+    email: 'ibrahim.bomami@nass.gov.ng',
+    state: 'Yobe',
+    district: 'Yobe South',
+    party: 'APC'
+  },
+  {
+    name: 'Gaidam Ibrahim Alhaji',
+    phone: '',
+    email: 'ibrahim.gaidam@nass.gov.ng',
+    state: 'Yobe',
+    district: 'Yobe East ',
+    party: 'APC'
+  },
+  {
+    name: 'kaura Tijjani',
+    phone: '+2348186567173',
+    email: 'tykaura@yahoo.com',
+    state: 'Zamfara',
+    district: 'Zamfara North',
+    party: 'APC'
+  },
+  {
+    name: 'Mohammed Hassan ',
+    phone: '',
+    email: 'hassan.gusau@nass.gov.ng',
+    state: 'Zamfara',
+    district: 'Zamfara Central',
+    party: 'PDP'
+  },
+  {
+    name: "Abdul'aziz Abubakar Yari",
+    phone: '+2348033412454',
+    email: 'yariabdulazeez@gmail.com',
+    state: 'Zamfara',
+    district: 'Zamfara West',
+    party: 'APC'
+  },
+  {
+    name: 'Tanimu Philip Anuda',
+    phone: '+2348034509106',
+    email: ' philipaduda2@yahoo.com',
+    state: 'FCT',
+    district: 'FCT',
+    party: 'PDP'
+  },
+  {
+    name: 'Dino Melaye',
+    phone: '+2348111111555',
+    email: 'otunbadino1@gmail.com',
+    state: 'Kogi ',
+    district: 'Kogi West',
+    party: 'PDP'
+  },
+  {
+    name: 'Suswam Torwua Gabriel',
+    phone: '+2348188821440',
+    email: 'Gabtorsuawam1@yahoo.com',
+    state: 'Benue',
+    district: 'Benue North East',
+    party: 'APC'
+  },
+  {
+    name: 'Sani Uba',
+    phone: '+2348099111119',
+    email: 'ubasani@aol.com',
+    state: 'Kaduna',
+    district: 'Kaduna Central',
+    party: 'APC'
   }
 ];

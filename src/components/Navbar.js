@@ -105,7 +105,7 @@ export default function Navbar({ filter }) {
                   <SearchIcon />
                 </div>
                 <InputBase
-                  placeholder='Search by name or state'
+                  placeholder='Search by name, state or district'
                   classes={{
                     root: classes.inputRoot,
                     input: classes.inputInput
