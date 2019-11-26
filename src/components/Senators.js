@@ -43,7 +43,7 @@ const SenatorsList = ({ senators = [] }) => {
 
   return (
     <ul className={classes.list}>
-      {senators.map(({ name, email, phone, district }) => (
+      {senators.map(({ name, email, phone, district, party }) => (
         <Card
           className={classes.card}
           raised
@@ -53,7 +53,7 @@ const SenatorsList = ({ senators = [] }) => {
         >
           <CardContent>
             <Typography variant='h5' gutterBottom>
-              {name}
+              {`${name} (${party})`}
             </Typography>
             <Typography color='textSecondary' className={classes.district}>
               {district}
